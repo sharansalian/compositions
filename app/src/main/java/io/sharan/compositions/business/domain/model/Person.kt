@@ -1,4 +1,4 @@
-package io.sharan.compositions.business.domain
+package io.sharan.compositions.business.domain.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

@@ -1,4 +1,4 @@
-package io.sharan.compositions.business.domain
+package io.sharan.compositions.business.domain.model
 
 data class Name(
     val title: String,
