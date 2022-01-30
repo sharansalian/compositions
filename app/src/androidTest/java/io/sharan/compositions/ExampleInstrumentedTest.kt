@@ -1,4 +1,4 @@
-package io.sharan.draft
+package io.sharan.compositions
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

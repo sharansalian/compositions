@@ -1,4 +1,4 @@
-package io.sharan.draft
+package io.sharan.compositions
 
 import org.junit.Test
 

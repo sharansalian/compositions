@@ -1,4 +1,4 @@
-package io.sharan.draft.ui.theme
+package io.sharan.compositions.ui.theme
 
 import android.app.Activity
 import android.os.Build
