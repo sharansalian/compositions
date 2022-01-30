@@ -1,7 +1,5 @@
 package io.sharan.compositions.business.domain.model
 
-import android.graphics.Picture
-
 data class Results(
     val gender: String,
     val name: Name,

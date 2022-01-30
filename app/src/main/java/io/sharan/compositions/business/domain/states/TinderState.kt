@@ -1,6 +1,6 @@
 package io.sharan.compositions.business.domain.states
 
-import android.app.Person
+import io.sharan.compositions.business.domain.model.Person
 
 
 /**
