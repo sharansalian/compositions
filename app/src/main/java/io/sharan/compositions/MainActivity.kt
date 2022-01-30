@@ -10,6 +10,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import io.sharan.compositions.business.domain.model.Person
+import io.sharan.compositions.ui.composables.PersonCard
 import io.sharan.compositions.ui.theme.DraftTheme
 
 class MainActivity : ComponentActivity() {
@@ -22,7 +24,16 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("Android")
+                    val person = Person(
+                        id = 0,
+                        img = null,
+                        name = "Sharan Salian",
+                        dob = null,
+                        address = null,
+                        phone = null
+                    )
+
+                    PersonCard(person = person)
                 }
             }
         }
